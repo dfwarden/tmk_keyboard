@@ -24,7 +24,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TRNS, END, PGUP, PGDN, TRNS, TRNS, TRNS, TRNS, TRNS, \
         TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, MUTE, MPLY, TRNS, TRNS ),
 };
-const uint16_t PROGMEM fn_actions[] = {
+const action_t PROGMEM fn_actions[] = {
     ACTION_DEFAULT_LAYER_SET(0),    // Default layer. Not used.
     ACTION_LAYER_TAP_KEY(1, KC_APP),  // FN1
 };
