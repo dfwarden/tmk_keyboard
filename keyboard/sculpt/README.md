@@ -33,7 +33,7 @@ Original US layout keboard matrix is 8 rows and 18 columns:
     4        SLCK         ENT  SCLN     L           K  BSLS  -->
     5                     APP  SLSH  QUOT  RALT        LEFT  -->
     6        END   RSFT  PGDN         DOT        COMM        --> 
-    7  LCTL  RGHT          UP  DOWN                    RSPC  -->
+    7  RCTL  RGHT          UP  DOWN                    RSPC  -->
     8        PSCR         F11   EQL    F9          F8   F10  -->
 
                           J     K     L     M     N     O     P     Q     R
@@ -44,7 +44,7 @@ Original US layout keboard matrix is 8 rows and 18 columns:
                   -->     J     F     D           A        LGUI              4
                   -->     H     G    F4     S   ESC              LALT        5
                   -->     M     V     C     X     Z  LSFT                    6
-                  -->     N     B  LSPC                                RCTL  7
+                  -->     N     B  LSPC                                LCTL  7
                   -->    F7     5    F2    F1   GRV           6              8
 
 Note that original matrix requires 8+18=26 pins on micro-controller and will
